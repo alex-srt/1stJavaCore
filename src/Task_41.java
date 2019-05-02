@@ -7,7 +7,6 @@ public class Task_41 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int grade = Integer.parseInt(br.readLine());
-//        String gradeLevel;
         if(grade >= 1 && grade <= 3 ) {
             System.out.println("The pupil's level is Initial");
         } else if (grade >= 4 && grade <= 6 ) {
