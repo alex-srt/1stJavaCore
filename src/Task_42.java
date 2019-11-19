@@ -19,6 +19,7 @@ public class Task_42 {
             } else if (myMonth < 1 || myMonth > 12 ){
                 System.out.println("Entered number is out of range");
             }
+            scan.close();
         } else {
             System.out.println("Sorry, couldn't understand you!");
         }
