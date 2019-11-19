@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Collections;
 
-import org.apache.commons.lang.ArrayUtils;
+//import org.apache.commons.lang.ArrayUtils;
 
 
 public class Task_45 {
@@ -28,7 +28,7 @@ public class Task_45 {
         final char[] array = txt.toCharArray();
         System.out.println("array = " + (Arrays.toString(array)) );
 
-        int max = Arrays.stream(array).min().getAsInt();
+ //       int max = Arrays.stream(array).min().getAsInt();
 
 
 
