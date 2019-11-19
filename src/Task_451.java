@@ -12,8 +12,12 @@ public class Task_451 {
 
             String temp = Integer.toString(number);
             int[] numArr = new int[temp.length()];
+            String[] strArr = new String[temp.length()];
+            strArr = temp.split("(?!^)");
+            System.out.println(Arrays.toString(strArr));
             for (int i = 0; i < temp.length(); i++){
-                numArr[i] = temp.charAt(i) - '0';
+//                numArr[i] = temp.charAt(i) - '0'; // terrible code. It's slightly arcane, only works with ASCII and is much harder to parse mentally. Much better to use Integer.parseInt()
+                numArr[i] = Integer.parseInt(strArr[i]);
             }
             System.out.println("Array: ");
             System.out.println(Arrays.toString(numArr));
