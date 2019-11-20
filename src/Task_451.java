@@ -11,8 +11,9 @@ public class Task_451 {
 //            System.out.println("Entered numbers: " + text );
 
             String temp = Integer.toString(number);
+            System.out.println(temp.length());
             int[] numArr = new int[temp.length()];
-            String[] strArr = new String[temp.length()];
+            String[] strArr;
             strArr = temp.split("(?!^)");
             System.out.println(Arrays.toString(strArr));
             for (int i = 0; i < temp.length(); i++){
