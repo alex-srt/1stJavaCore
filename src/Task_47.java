@@ -15,6 +15,8 @@
 * Print the duration of the Olympiad in format hour min sec.
 * */
 
+import java.util.Date;
+
 public class Task_47 {
     public static void main(String[] args) {
 
@@ -25,6 +27,9 @@ public class Task_47 {
         int h2 = 12;
         int m2 = 45;
         int s2 = 30;
+
+
+        Date start = h1:m1:s1;
 
 
 
